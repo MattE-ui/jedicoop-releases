@@ -11,10 +11,17 @@ A fan-made mod. Not affiliated with or endorsed by EA, Respawn Entertainment or 
 2. Run it. Windows may say *"Windows protected your PC"* because the installer is new and not yet
    widely downloaded: click **More info**, then **Run anyway**.
 3. Open **JediCoop** (Start menu). It finds your game and checks its version.
-4. Type your name, then press **Install & Play**.
+4. Type your name, press **Install**, then **Play**.
 
 The launcher never changes the game's own files. **Uninstall** (in the launcher's Settings) removes
-everything JediCoop added. When a new version is out, the launcher offers **Update now**.
+everything JediCoop added.
+
+## Updates
+- **New versions of JediCoop:** the launcher shows **Update** next to Play and downloads just the mod.
+  Both players need the same version to play together.
+- **New versions of the launcher:** a banner at the top of the launcher offers **Update now**; it takes a
+  few seconds and the launcher restarts itself.
+- Launcher older than 1.0? Use the **Update now** banner at the top first, then update JediCoop.
 
 ## Play together
 1. Both players press **Play** in the launcher and load a save.
@@ -22,8 +29,9 @@ everything JediCoop added. When a new version is out, the launcher offers **Upda
    clipboard: send it to your friend.
 3. The friend copies the code and presses **F7** in the game (or presses F7 and types it).
 
-**F4** opens the co-op menu, **F8** leaves the session. When one of you flies to another planet, the
-other is asked "Follow? [Y] / [N]".
+**F4** opens the co-op menu, **F8** leaves the session. **Co-op settings** in the launcher set the
+difficulty (the host's choice is used) and what happens when your friend flies to another planet:
+you're asked "Follow? [Y] / [N]", follow automatically, or stay.
 
 Tip: back up your saves from the launcher before playing together.
 
