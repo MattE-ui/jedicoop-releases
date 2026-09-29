@@ -36,5 +36,8 @@ you're asked "Follow? [Y] / [N]", follow automatically, or stay.
 Tip: back up your saves from the launcher before playing together.
 
 ## Help
-Something not working? Open the launcher and check the game is found and supported. Then tell the host
-what happened.
+Something not working? Open the launcher and check the game is found and supported. Then open **Help**
+(next to What's new): it lists the known issues and what to do about them, and lets you report a bug,
+send feedback or suggest an idea. No account needed. Before sending you see exactly what goes with it
+(your name, your versions and, if you choose, JediCoop's log), and you get a reference code back.
+Help needs launcher 1.1 or newer.
