@@ -1,0 +1,56 @@
+{
+  "updated": "2026-09-29",
+  "issues": [
+    {
+      "id": "parry-friends-bolts",
+      "title": "You can't parry blaster shots aimed at your friend",
+      "status": "workaround",
+      "body": "When a trooper is shooting at your friend, you can block its shots but not send them back.",
+      "workaround": "Step in close to the trooper. After a few seconds it turns its attention to you, and then you can parry its shots as usual.",
+      "keywords": ["parry", "parried", "reflect", "deflect", "block", "bolt", "blaster", "shot", "trooper", "stormtrooper"]
+    },
+    {
+      "id": "lured-enemies",
+      "title": "Enemies led away from their spot may not show up for your friend",
+      "status": "investigating",
+      "body": "If one of you leads enemies a long way from where they started, your friend's game may not show them until your friend gets close to where they began.",
+      "workaround": "",
+      "keywords": ["lure", "lured", "missing", "invisible", "disappear", "enemies", "troopers", "chase", "follow"]
+    },
+    {
+      "id": "old-launcher-downgrade",
+      "title": "Launchers older than 1.0 offer an older JediCoop",
+      "status": "workaround",
+      "body": "A launcher from before 1.0 may show Update with an older version number, and ask you to update before you play.",
+      "workaround": "Use Update now in the banner at the top of the launcher first. The new launcher then offers the right version of JediCoop.",
+      "keywords": ["downgrade", "older", "version", "update", "launcher", "banner"]
+    },
+    {
+      "id": "shortcuts-rejoin",
+      "title": "Shortcuts your friend opened stayed shut after you rejoined",
+      "status": "fixed",
+      "fixedIn": "0.9.7",
+      "body": "When the host had opened a shortcut in an earlier session, it stayed shut for a joining player. Shortcuts the host has opened are now open for you as soon as you join.",
+      "workaround": "",
+      "keywords": ["shortcut", "door", "locked", "shut", "rejoin"]
+    },
+    {
+      "id": "force-slow-look",
+      "title": "Force Slow looked different in your friend's game",
+      "status": "fixed",
+      "fixedIn": "0.9.6",
+      "body": "Slowing a puzzle object with the Force now looks the same in both games.",
+      "workaround": "",
+      "keywords": ["force", "slow", "gear", "puzzle"]
+    },
+    {
+      "id": "rejoin-toughness",
+      "title": "Enemies got tougher every time a player rejoined",
+      "status": "fixed",
+      "fixedIn": "0.9.5",
+      "body": "With Tougher or Toughest, enemies no longer gain extra health each time a player leaves and joins again.",
+      "workaround": "",
+      "keywords": ["tougher", "toughest", "health", "rejoin", "tanky", "difficulty"]
+    }
+  ]
+}
