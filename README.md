@@ -13,6 +13,8 @@ A fan-made mod. Not affiliated with or endorsed by EA, Respawn Entertainment or 
 3. Open **JediCoop** (Start menu). It finds your game and checks its version.
 4. Type your name, press **Install**, then **Play**.
 
+Always start the game with **Play** in the launcher. Started from Steam, the game runs without JediCoop.
+
 The launcher never changes the game's own files. **Uninstall** (in the launcher's Settings) removes
 everything JediCoop added.
 
