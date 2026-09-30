@@ -26,6 +26,15 @@
       "keywords": ["downgrade", "older", "version", "update", "launcher", "banner"]
     },
     {
+      "id": "enemy-crash",
+      "title": "The game could crash when some enemies came into view",
+      "status": "fixed",
+      "fixedIn": "0.9.8",
+      "body": "With some enemies, such as Purge troopers, the game could close without warning when they came into view during co-op. This is fixed.",
+      "workaround": "",
+      "keywords": ["crash", "crashed", "closed", "purge", "trooper", "bounty", "hunter", "boss", "enemies"]
+    },
+    {
       "id": "shortcuts-rejoin",
       "title": "Shortcuts your friend opened stayed shut after you rejoined",
       "status": "fixed",
