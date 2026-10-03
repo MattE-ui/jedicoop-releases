@@ -2,6 +2,14 @@
   "updated": "2026-09-29",
   "issues": [
     {
+      "id": "coop-stops-after-respawn",
+      "title": "Co-op can stop after the host respawns or rides a lift",
+      "status": "investigating",
+      "body": "After the host dies and respawns, or rides some lifts, co-op can stop working for the rest of the session: your friend no longer appears and enemies stop being shared.",
+      "workaround": "Both of you close the game, start it again from the launcher, and host a new session. Your progress isn't affected.",
+      "keywords": ["stopped", "respawn", "died", "death", "lift", "elevator", "disconnected", "not working", "froze"]
+    },
+    {
       "id": "parry-friends-bolts",
       "title": "You can't parry blaster shots aimed at your friend",
       "status": "workaround",
