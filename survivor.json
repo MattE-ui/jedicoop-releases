@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "protocol": 0,
+  "url": "https://github.com/MattE-ui/jedicoop-releases/releases/download/survivor-v0.1.0/JediCoop-survivor-0.1.0.zip",
+  "sha256": "d70e538ef22e049dda218fae060109017f792da1794e160dd033861f328198c6",
+  "size": 3322761,
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTV3dXNkMrL29uc1VjZXZpSU5MWVVjOWNqK0tVcWdSRlMzaUJYbkZlSmxCckZOZmlhYUZib0FzYnh1aUJkeFVVTURwcTdTUWx3azNXdVRLRHAzK2VSbktCNlplK1p1T2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTkzMDc4CWZpbGU6SmVkaUNvb3Atc3Vydml2b3ItMC4xLjAuemlwCjdBY1o5dXhSUlVQc1BJVTJNWXB1TjM2UzJvaVVIMEFaYS9XVW1CR1BVUXlhalBhZGxFUW1TQUp5UnhRMzZLUWtwQ3l3cEFucGdUTWVKdWdmcGVWRURBPT0K",
+  "minLauncher": "1.4.0",
+  "gameBuilds": [],
+  "notes": "- The first early access build for testers. It doesn't add co-op yet: it checks Jedi: Survivor runs with JediCoop.\n- Your Discord profile shows you're playing Jedi: Survivor as an early access tester.\n- Turn that off in JediCoop.ini ([Discord] Presence=0) if you'd rather it didn't.",
+  "changelog": "## 0.1.0\n\n- The first early access build for testers. It doesn't add co-op yet: it checks Jedi: Survivor runs with JediCoop.\n- Your Discord profile shows you're playing Jedi: Survivor as an early access tester.\n- Turn that off in JediCoop.ini ([Discord] Presence=0) if you'd rather it didn't.",
+  "pubDate": "2026-10-05T09:37:58Z"
+}
