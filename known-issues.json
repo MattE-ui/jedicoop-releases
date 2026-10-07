@@ -1,21 +1,69 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-07",
   "issues": [
     {
-      "id": "coop-stops-after-respawn",
-      "title": "Co-op can stop after the host respawns or rides a lift",
+      "id": "boss-health-reset",
+      "title": "A boss's health can refill when one of you dies",
       "status": "investigating",
-      "body": "After the host dies and respawns, or rides some lifts, co-op can stop working for the rest of the session: your friend no longer appears and enemies stop being shared.",
-      "workaround": "Both of you close the game, start it again from the launcher, and host a new session. Your progress isn't affected.",
-      "keywords": ["stopped", "respawn", "died", "death", "lift", "elevator", "disconnected", "not working", "froze"]
+      "body": "Seen with Oggdo Bogdo on Bogano: when either player died, the boss went back to full health, and after respawning it could ignore the player who had died.",
+      "workaround": "",
+      "keywords": ["boss", "oggdo", "bogdo", "health", "reset", "refill", "full", "died", "death", "respawn", "aggro", "ignore"]
     },
     {
-      "id": "parry-friends-bolts",
-      "title": "You can't parry blaster shots aimed at your friend",
+      "id": "cutscenes-start-apart",
+      "title": "A cutscene can start for one of you before the other",
+      "status": "investigating",
+      "body": "Story scenes always play for both of you, but sometimes not at the same moment. A few things can then look different in your two games for a while.",
+      "workaround": "",
+      "keywords": ["cutscene", "scene", "story", "start", "together", "same time", "sync", "trigger"]
+    },
+    {
+      "id": "cutscene-spiders",
+      "title": "Spiders can keep appearing during a cutscene",
+      "status": "investigating",
+      "body": "On Dathomir, spiders kept appearing for one player while a cutscene played, and a large group was waiting when it ended.",
+      "workaround": "",
+      "keywords": ["spider", "spiders", "cutscene", "spawn", "spawning", "endless", "dathomir"]
+    },
+    {
+      "id": "rope-shortcut",
+      "title": "A rope shortcut one of you opens may stay closed for the other",
+      "status": "investigating",
+      "body": "When one player cuts down or unlocks a rope shortcut, it may not open in their friend's game.",
+      "workaround": "",
+      "keywords": ["rope", "shortcut", "unlock", "cut", "closed", "locked", "dathomir"]
+    },
+    {
+      "id": "chests-same-cosmetic",
+      "title": "Chests give both of you the same cosmetic",
+      "status": "investigating",
+      "body": "With the co-op setting that gives each of you your own chest cosmetic, both players can still get the same item.",
+      "workaround": "",
+      "keywords": ["chest", "chests", "cosmetic", "random", "same", "item", "poncho", "outfit", "reward"]
+    },
+    {
+      "id": "poncho-look",
+      "title": "Your friend's poncho can look like a different one",
       "status": "workaround",
-      "body": "When a trooper is shooting at your friend, you can block its shots but not send them back.",
-      "workaround": "Step in close to the trooper. After a few seconds it turns its attention to you, and then you can parry its shots as usual.",
-      "keywords": ["parry", "parried", "reflect", "deflect", "block", "bolt", "blaster", "shot", "trooper", "stormtrooper"]
+      "body": "A poncho can show in the wrong style on the other player's screen.",
+      "workaround": "The player wearing it leaves the journey and joins again. It then shows correctly.",
+      "keywords": ["poncho", "cosmetic", "outfit", "wrong", "different", "look", "clothes"]
+    },
+    {
+      "id": "controller-your-journeys",
+      "title": "A controller can't pick a journey under YOUR JOURNEYS",
+      "status": "workaround",
+      "body": "In Join Journey, a journey you've joined before can't be selected with a controller.",
+      "workaround": "Type the host's join code in the code boxes instead (up and down change the letter), or click the journey with the mouse.",
+      "keywords": ["controller", "gamepad", "pad", "join", "journey", "your journeys", "select", "pick", "press"]
+    },
+    {
+      "id": "enemy-sounds-friend",
+      "title": "You may not hear an enemy that's fighting your friend",
+      "status": "investigating",
+      "body": "When an enemy is busy with the other player, some of its sounds can be missing on your side. Seen in the Oggdo Bogdo fight.",
+      "workaround": "",
+      "keywords": ["sound", "sounds", "audio", "hear", "silent", "enemy", "boss", "oggdo"]
     },
     {
       "id": "lured-enemies",
@@ -26,11 +74,30 @@
       "keywords": ["lure", "lured", "missing", "invisible", "disappear", "enemies", "troopers", "chase", "follow"]
     },
     {
+      "id": "parry-friends-bolts",
+      "title": "You couldn't parry blaster shots aimed at your friend",
+      "status": "fixed",
+      "fixedIn": "0.12.0",
+      "body": "Shots fired at your friend are now real in your game too: you can block and parry them where you see them.",
+      "workaround": "",
+      "keywords": ["parry", "parried", "reflect", "deflect", "block", "bolt", "blaster", "shot", "trooper", "stormtrooper"]
+    },
+    {
+      "id": "coop-stops-after-respawn",
+      "title": "Co-op could stop after the host respawned or rode a lift",
+      "status": "fixed",
+      "fixedIn": "0.9.9",
+      "body": "Co-op no longer stops for the rest of the session after the host dies and respawns, or rides a lift.",
+      "workaround": "",
+      "keywords": ["stopped", "respawn", "died", "death", "lift", "elevator", "disconnected", "not working", "froze"]
+    },
+    {
       "id": "old-launcher-downgrade",
-      "title": "Launchers older than 1.0 offer an older JediCoop",
-      "status": "workaround",
-      "body": "A launcher from before 1.0 may show Update with an older version number, and ask you to update before you play.",
-      "workaround": "Use Update now in the banner at the top of the launcher first. The new launcher then offers the right version of JediCoop.",
+      "title": "Launchers older than 1.0 offered an older JediCoop",
+      "status": "fixed",
+      "fixedIn": "launcher 1.0",
+      "body": "Old launchers could offer an older version of JediCoop. Current launchers always offer the right one.",
+      "workaround": "",
       "keywords": ["downgrade", "older", "version", "update", "launcher", "banner"]
     },
     {
