@@ -92,15 +92,6 @@
       "keywords": ["stopped", "respawn", "died", "death", "lift", "elevator", "disconnected", "not working", "froze"]
     },
     {
-      "id": "old-launcher-downgrade",
-      "title": "Launchers older than 1.0 offered an older JediCoop",
-      "status": "fixed",
-      "fixedIn": "launcher 1.0",
-      "body": "Old launchers could offer an older version of JediCoop. Current launchers always offer the right one.",
-      "workaround": "",
-      "keywords": ["downgrade", "older", "version", "update", "launcher", "banner"]
-    },
-    {
       "id": "enemy-crash",
       "title": "The game could crash when some enemies came into view",
       "status": "fixed",
