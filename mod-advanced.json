@@ -1,11 +1,11 @@
 {
   "version": "0.18.10",
   "protocol": 32,
-  "url": "https://github.com/MattE-ui/jedicoop-releases/releases/download/mod-adv-v0.18.10/JediCoop-mod-0.18.10.zip",
+  "url": "server:/v1/download/fallen-order-advanced/0.18.10",
   "sha256": "f04453b4691344b6267a5b39a123380d437e1ff4b1c16938da209abd997238d3",
   "size": 4817481,
   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTV3dXNkMrL29uc2Q1ejRYRG5BNE5uK3dkZW0wS2ZRZUlxcXdPVXBBNWhnb0hyVVhhWmJDSitvK0dEclhvWTFaSVg2R3FUeEZCcDBDcC91NHJaTTc2U0gxOWJlVzZpNmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI3NzM1CWZpbGU6SmVkaUNvb3AtbW9kLTAuMTguMTAuemlwCjdodUZhSjVVb2UzR29KMXoyY250MnQyU0lOUWUrTVErRkhpUm5ZMkhhTE5HYUxzK2FwOEVIT2piTWkzRWtab3dmWDljNTZYeHAvRGw2a3haSWxBQ0JnPT0K",
-  "minLauncher": "1.0.0",
+  "minLauncher": "1.8.0",
   "gameBuilds": [
     {
       "game": "fallen-order",
