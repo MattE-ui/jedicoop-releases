@@ -7,7 +7,7 @@
   "goal": {
     "label": "Monthly server costs",
     "currency": "GBP",
-    "monthly": 0,
+    "monthly": 200.0,
     "raised": 0,
     "updated": ""
   },
