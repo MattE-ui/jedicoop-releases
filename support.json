@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "links": {
+    "patreon": "https://patreon.com/JediCoop",
+    "kofi": "https://ko-fi.com/jedicoop"
+  },
+  "goal": {
+    "label": "Monthly server costs",
+    "currency": "GBP",
+    "monthly": 0,
+    "raised": 0,
+    "updated": ""
+  },
+  "message": ""
+}
