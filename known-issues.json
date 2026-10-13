@@ -1,21 +1,23 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-13",
   "issues": [
     {
-      "id": "boss-health-reset",
-      "title": "A boss's health can refill when one of you dies",
+      "id": "boss-intro-apart",
+      "title": "The Second Sister's opening scene can start at different times",
       "status": "investigating",
-      "body": "Seen with Oggdo Bogdo on Bogano: when either player died, the boss went back to full health, and after respawning it could ignore the player who had died.",
+      "body": "When you reach the Second Sister together, her opening cutscene can start for one of you a few seconds before the other.",
       "workaround": "",
-      "keywords": ["boss", "oggdo", "bogdo", "health", "reset", "refill", "full", "died", "death", "respawn", "aggro", "ignore"]
-    },
-    {
-      "id": "cutscenes-start-apart",
-      "title": "A cutscene can start for one of you before the other",
-      "status": "investigating",
-      "body": "Story scenes always play for both of you, but sometimes not at the same moment. A few things can then look different in your two games for a while.",
-      "workaround": "",
-      "keywords": ["cutscene", "scene", "story", "start", "together", "same time", "sync", "trigger"]
+      "keywords": [
+        "second sister",
+        "boss",
+        "intro",
+        "opening",
+        "cutscene",
+        "bracca",
+        "start",
+        "together",
+        "sync"
+      ]
     },
     {
       "id": "cutscene-spiders",
@@ -23,55 +25,201 @@
       "status": "investigating",
       "body": "On Dathomir, spiders kept appearing for one player while a cutscene played, and a large group was waiting when it ended.",
       "workaround": "",
-      "keywords": ["spider", "spiders", "cutscene", "spawn", "spawning", "endless", "dathomir"]
+      "keywords": [
+        "spider",
+        "spiders",
+        "cutscene",
+        "spawn",
+        "spawning",
+        "endless",
+        "dathomir"
+      ]
+    },
+    {
+      "id": "no-pause",
+      "title": "The game doesn't pause in co-op",
+      "status": "workaround",
+      "body": "Opening the menu doesn't pause the game in co-op: the world keeps running for both of you.",
+      "workaround": "Open the menu somewhere safe, away from enemies.",
+      "keywords": [
+        "pause",
+        "paused",
+        "menu",
+        "esc",
+        "escape",
+        "options",
+        "start",
+        "stop",
+        "freeze"
+      ]
+    },
+    {
+      "id": "cutscenes-start-apart",
+      "title": "A cutscene can start for one of you before the other",
+      "status": "fixed",
+      "body": "When you're together, cutscenes now start at the same moment for both of you. When you're apart, each of you sees them when you get there.",
+      "workaround": "",
+      "keywords": [
+        "cutscene",
+        "scene",
+        "story",
+        "start",
+        "together",
+        "same time",
+        "sync",
+        "trigger"
+      ],
+      "fixedIn": "0.20.0"
+    },
+    {
+      "id": "bogano-lift",
+      "title": "The lift on Bogano could kill you partway up",
+      "status": "fixed",
+      "fixedIn": "0.20.0",
+      "body": "Riding the lift at the Great Divide no longer kills you partway up.",
+      "workaround": "",
+      "keywords": [
+        "lift",
+        "elevator",
+        "bogano",
+        "died",
+        "death",
+        "killed",
+        "squished",
+        "height",
+        "great divide"
+      ]
     },
     {
       "id": "rope-shortcut",
       "title": "A rope shortcut one of you opens may stay closed for the other",
-      "status": "investigating",
-      "body": "When one player cuts down or unlocks a rope shortcut, it may not open in their friend's game.",
+      "status": "fixed",
+      "body": "When either of you cuts a rope shortcut down, it drops for both of you.",
       "workaround": "",
-      "keywords": ["rope", "shortcut", "unlock", "cut", "closed", "locked", "dathomir"]
-    },
-    {
-      "id": "chests-same-cosmetic",
-      "title": "Chests give both of you the same cosmetic",
-      "status": "investigating",
-      "body": "With the co-op setting that gives each of you your own chest cosmetic, both players can still get the same item.",
-      "workaround": "",
-      "keywords": ["chest", "chests", "cosmetic", "random", "same", "item", "poncho", "outfit", "reward"]
-    },
-    {
-      "id": "poncho-look",
-      "title": "Your friend's poncho can look like a different one",
-      "status": "workaround",
-      "body": "A poncho can show in the wrong style on the other player's screen.",
-      "workaround": "The player wearing it leaves the journey and joins again. It then shows correctly.",
-      "keywords": ["poncho", "cosmetic", "outfit", "wrong", "different", "look", "clothes"]
-    },
-    {
-      "id": "controller-your-journeys",
-      "title": "A controller can't pick a journey under YOUR JOURNEYS",
-      "status": "workaround",
-      "body": "In Join Journey, a journey you've joined before can't be selected with a controller.",
-      "workaround": "Type the host's join code in the code boxes instead (up and down change the letter), or click the journey with the mouse.",
-      "keywords": ["controller", "gamepad", "pad", "join", "journey", "your journeys", "select", "pick", "press"]
-    },
-    {
-      "id": "enemy-sounds-friend",
-      "title": "You may not hear an enemy that's fighting your friend",
-      "status": "investigating",
-      "body": "When an enemy is busy with the other player, some of its sounds can be missing on your side. Seen in the Oggdo Bogdo fight.",
-      "workaround": "",
-      "keywords": ["sound", "sounds", "audio", "hear", "silent", "enemy", "boss", "oggdo"]
+      "keywords": [
+        "rope",
+        "shortcut",
+        "unlock",
+        "cut",
+        "closed",
+        "locked",
+        "dathomir"
+      ],
+      "fixedIn": "0.18.3"
     },
     {
       "id": "lured-enemies",
       "title": "Enemies led away from their spot may not show up for your friend",
-      "status": "investigating",
-      "body": "If one of you leads enemies a long way from where they started, your friend's game may not show them until your friend gets close to where they began.",
+      "status": "fixed",
+      "body": "Enemies your friend leads away are where they left them when you get there.",
       "workaround": "",
-      "keywords": ["lure", "lured", "missing", "invisible", "disappear", "enemies", "troopers", "chase", "follow"]
+      "keywords": [
+        "lure",
+        "lured",
+        "missing",
+        "invisible",
+        "disappear",
+        "enemies",
+        "troopers",
+        "chase",
+        "follow"
+      ],
+      "fixedIn": "0.18.3"
+    },
+    {
+      "id": "boss-health-reset",
+      "title": "A boss's health can refill when one of you dies",
+      "status": "fixed",
+      "body": "Bosses keep the damage you've done when one of you dies, and fight the player who comes back.",
+      "workaround": "",
+      "keywords": [
+        "boss",
+        "oggdo",
+        "bogdo",
+        "health",
+        "reset",
+        "refill",
+        "full",
+        "died",
+        "death",
+        "respawn",
+        "aggro",
+        "ignore"
+      ],
+      "fixedIn": "0.18.1"
+    },
+    {
+      "id": "chests-same-cosmetic",
+      "title": "Chests give both of you the same cosmetic",
+      "status": "fixed",
+      "body": "With \"Own chest cosmetics\", chests give each of you a different item.",
+      "workaround": "",
+      "keywords": [
+        "chest",
+        "chests",
+        "cosmetic",
+        "random",
+        "same",
+        "item",
+        "poncho",
+        "outfit",
+        "reward"
+      ],
+      "fixedIn": "0.18.1"
+    },
+    {
+      "id": "poncho-look",
+      "title": "Your friend's poncho can look like a different one",
+      "status": "fixed",
+      "body": "Your friend's poncho shows in the right style from the moment they join.",
+      "workaround": "",
+      "keywords": [
+        "poncho",
+        "cosmetic",
+        "outfit",
+        "wrong",
+        "different",
+        "look",
+        "clothes"
+      ],
+      "fixedIn": "0.18.1"
+    },
+    {
+      "id": "controller-your-journeys",
+      "title": "A controller can't pick a journey under YOUR JOURNEYS",
+      "status": "fixed",
+      "body": "With a controller, D-pad down now reaches your saved journeys on the Join screen.",
+      "workaround": "",
+      "keywords": [
+        "controller",
+        "gamepad",
+        "pad",
+        "join",
+        "journey",
+        "your journeys",
+        "select",
+        "pick",
+        "press"
+      ],
+      "fixedIn": "0.18.1"
+    },
+    {
+      "id": "enemy-sounds-friend",
+      "title": "You may not hear an enemy that's fighting your friend",
+      "status": "fixed",
+      "body": "You hear the enemies that are fighting your friend.",
+      "workaround": "",
+      "keywords": [
+        "sound",
+        "sounds",
+        "audio",
+        "hear",
+        "silent",
+        "enemy",
+        "boss",
+        "oggdo"
+      ],
+      "fixedIn": "0.18.1"
     },
     {
       "id": "parry-friends-bolts",
@@ -80,7 +228,18 @@
       "fixedIn": "0.12.0",
       "body": "Shots fired at your friend are now real in your game too: you can block and parry them where you see them.",
       "workaround": "",
-      "keywords": ["parry", "parried", "reflect", "deflect", "block", "bolt", "blaster", "shot", "trooper", "stormtrooper"]
+      "keywords": [
+        "parry",
+        "parried",
+        "reflect",
+        "deflect",
+        "block",
+        "bolt",
+        "blaster",
+        "shot",
+        "trooper",
+        "stormtrooper"
+      ]
     },
     {
       "id": "coop-stops-after-respawn",
@@ -89,7 +248,17 @@
       "fixedIn": "0.9.9",
       "body": "Co-op no longer stops for the rest of the session after the host dies and respawns, or rides a lift.",
       "workaround": "",
-      "keywords": ["stopped", "respawn", "died", "death", "lift", "elevator", "disconnected", "not working", "froze"]
+      "keywords": [
+        "stopped",
+        "respawn",
+        "died",
+        "death",
+        "lift",
+        "elevator",
+        "disconnected",
+        "not working",
+        "froze"
+      ]
     },
     {
       "id": "enemy-crash",
@@ -98,7 +267,17 @@
       "fixedIn": "0.9.8",
       "body": "With some enemies, such as Purge troopers, the game could close without warning when they came into view during co-op. This is fixed.",
       "workaround": "",
-      "keywords": ["crash", "crashed", "closed", "purge", "trooper", "bounty", "hunter", "boss", "enemies"]
+      "keywords": [
+        "crash",
+        "crashed",
+        "closed",
+        "purge",
+        "trooper",
+        "bounty",
+        "hunter",
+        "boss",
+        "enemies"
+      ]
     },
     {
       "id": "shortcuts-rejoin",
@@ -107,7 +286,13 @@
       "fixedIn": "0.9.7",
       "body": "When the host had opened a shortcut in an earlier session, it stayed shut for a joining player. Shortcuts the host has opened are now open for you as soon as you join.",
       "workaround": "",
-      "keywords": ["shortcut", "door", "locked", "shut", "rejoin"]
+      "keywords": [
+        "shortcut",
+        "door",
+        "locked",
+        "shut",
+        "rejoin"
+      ]
     },
     {
       "id": "force-slow-look",
@@ -116,7 +301,12 @@
       "fixedIn": "0.9.6",
       "body": "Slowing a puzzle object with the Force now looks the same in both games.",
       "workaround": "",
-      "keywords": ["force", "slow", "gear", "puzzle"]
+      "keywords": [
+        "force",
+        "slow",
+        "gear",
+        "puzzle"
+      ]
     },
     {
       "id": "rejoin-toughness",
@@ -125,7 +315,14 @@
       "fixedIn": "0.9.5",
       "body": "With Tougher or Toughest, enemies no longer gain extra health each time a player leaves and joins again.",
       "workaround": "",
-      "keywords": ["tougher", "toughest", "health", "rejoin", "tanky", "difficulty"]
+      "keywords": [
+        "tougher",
+        "toughest",
+        "health",
+        "rejoin",
+        "tanky",
+        "difficulty"
+      ]
     }
   ]
 }
