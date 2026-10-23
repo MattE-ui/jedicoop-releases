@@ -1,10 +1,43 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-23",
   "issues": [
+    {
+      "id": "bracca-together",
+      "title": "Playing Bracca together can break or get out of step",
+      "status": "workaround",
+      "fixedIn": "",
+      "body": "Bracca played as co-op is still buggy: the two games can drift apart, and story moments may not line up.",
+      "workaround": "The host can set BRACCA to Skip, or to Each on your own, before starting the journey.",
+      "keywords": [
+        "bracca",
+        "train",
+        "opening",
+        "skip",
+        "co-op setting",
+        "out of sync"
+      ]
+    },
+    {
+      "id": "menu-locked",
+      "title": "DUEL or HOST JOURNEY says LOCKED",
+      "status": "workaround",
+      "fixedIn": "",
+      "body": "Duels need the Duelist role and journeys need the Journey role in the Jedi Co-op Discord. Without the role, that entry is locked.",
+      "workaround": "Apply with /apply tester. Once you're approved it unlocks within about 5 minutes. Make sure you're signed in with Discord in the launcher.",
+      "keywords": [
+        "locked",
+        "duel",
+        "journey",
+        "host",
+        "join",
+        "role",
+        "access"
+      ]
+    },
     {
       "id": "boss-intro-apart",
       "title": "The Second Sister's opening scene can start at different times",
-      "status": "investigating",
+      "status": "fixed",
       "body": "When you reach the Second Sister together, her opening cutscene can start for one of you a few seconds before the other.",
       "workaround": "",
       "keywords": [
@@ -17,12 +50,13 @@
         "start",
         "together",
         "sync"
-      ]
+      ],
+      "fixedIn": "0.30.1"
     },
     {
       "id": "cutscene-spiders",
       "title": "Spiders can keep appearing during a cutscene",
-      "status": "investigating",
+      "status": "fixed",
       "body": "On Dathomir, spiders kept appearing for one player while a cutscene played, and a large group was waiting when it ended.",
       "workaround": "",
       "keywords": [
@@ -33,7 +67,8 @@
         "spawning",
         "endless",
         "dathomir"
-      ]
+      ],
+      "fixedIn": "0.30.1"
     },
     {
       "id": "no-pause",
